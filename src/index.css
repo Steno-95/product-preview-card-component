@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+:root {
+  font-family: "Montserrat", sans-serif;
+  --green-light: hsl(158, 36%, 37%);
+  --green-dark: hsl(158, 42%, 18%);
+
+  --black: hsl(212, 21%, 14%);
+  --grey: hsl(228, 12%, 48%);
+  --cream: hsl(30, 38%, 92%);
+  --white: hsl(0, 0%, 100%);
+}
+
+body {
+  font-size: clamp(0.8em, 0.8em + 4vh, 3em);
+}
+
+p {
+  font-size: 14px;
+}
