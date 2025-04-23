@@ -2,9 +2,12 @@ import { MdOutlineAddShoppingCart } from "react-icons/md";
 
 function Button() {
   return (
-    <button className="bg-[var(--green-light)] text-[var(--white)] flex items-center justify-center min-w-full rounded-xl text-[1.4rem] gap-4 py-2 hover:bg-[var(--green-dark)] focus:bg-[var(--green-dark)]">
+    <button
+      className="bg-[var(--green-light)] text-[var(--white)] flex items-center justify-center min-w-full rounded-xl text-[1.4rem] gap-4 py-2 hover:bg-[var(--green-dark)] focus:bg-[var(--green-dark)]
+    lg:text-[2.5rem] lg:py-3 lg:mt-2"
+    >
       <MdOutlineAddShoppingCart />
-      <span className="text-[1.2rem] ">Add to Cart</span>
+      <span className="text-[1.2rem] lg:text-[2rem]">Add to Cart</span>
     </button>
   );
 }

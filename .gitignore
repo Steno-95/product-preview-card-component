@@ -23,10 +23,6 @@ dist-ssr
 *.sln
 *.sw?
 
-*.md
-
-./public/design
-
 *.sketch
 *.fig
 *.xd
