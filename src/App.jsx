@@ -4,22 +4,12 @@ import Footer from "./ui/Footer";
 function App() {
   return (
     <>
-      <main className="bg-[var(--cream)] min-h-[100vh] flex items-center justify-center flex-col">
-        <Card></Card>
+      <div className="bg-(--cream) min-h-screen flex items-center justify-center flex-col">
+        <Card />
         <Footer />
-      </main>
+      </div>
     </>
   );
 }
 
 export default App;
-
-/*
-
-
-  
-
- 
-
-  Add to Cart
-  */
